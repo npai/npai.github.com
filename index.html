@@ -2,6 +2,9 @@
 layout: default
 ---
 
+{% assign post = page %}
+{% assign detail = true %}
+
 {% for post in paginator.posts %}
   {% include _post.html %}
 {% endfor %}
