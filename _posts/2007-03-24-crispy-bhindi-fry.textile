@@ -1,7 +1,6 @@
 ---
 layout: post
 title: crispy bhinDi fry
-date: 2007-03-24 02:18
 categories: Side-dishes
 permalink: crispy-bhindi-fry
 ---

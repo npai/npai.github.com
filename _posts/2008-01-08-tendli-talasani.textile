@@ -1,7 +1,6 @@
 ---
 layout: post
 title: tenDli taLasaNi
-date: 2008-01-08 22:35
 categories: Side-dishes
 permalink: tendli-talasani
 ---

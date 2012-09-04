@@ -1,7 +1,6 @@
 ---
 layout: post
 title: sungaT fry
-date: 2008-06-24 10:59
 categories: Nonveg-8211-Prawns
 permalink: sungat-fry
 ---

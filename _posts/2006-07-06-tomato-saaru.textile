@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Tomato saaru
-date: 2006-07-06 03:41
 categories: Curry-and-Daals
 permalink: tomato-saaru
 ---

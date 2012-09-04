@@ -1,7 +1,6 @@
 ---
 layout: post
 title: soyi poLo
-date: 2007-03-26 06:12
 categories: Breakfast
 permalink: soyi-polo
 ---

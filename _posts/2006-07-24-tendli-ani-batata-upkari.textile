@@ -1,7 +1,6 @@
 ---
 layout: post
 title: tenDli ani batata upkari
-date: 2006-07-24 02:20
 categories: Side-dishes
 permalink: tendli-ani-batata-upkari
 ---

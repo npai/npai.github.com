@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Happy Sankranthi
-date: 2007-01-14 21:06
 categories: General
 permalink: happy-sankranti
 ---

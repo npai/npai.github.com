@@ -1,7 +1,6 @@
 ---
 layout: post
 title: cabbage upkari
-date: 2007-11-09 01:09
 categories: Side-dishes
 permalink: cabbage-upkari
 ---

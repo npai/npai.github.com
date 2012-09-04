@@ -1,7 +1,6 @@
 ---
 layout: post
 title: New Blog
-date: 2006-09-03 22:40
 categories: 
 permalink: new-blog
 ---

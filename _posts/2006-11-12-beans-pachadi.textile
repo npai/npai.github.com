@@ -1,7 +1,6 @@
 ---
 layout: post
 title: beans pachaDi
-date: 2006-11-12 05:28
 categories: Side-dishes
 permalink: beans-pachadi
 ---

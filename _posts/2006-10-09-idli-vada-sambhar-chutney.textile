@@ -1,7 +1,6 @@
 ---
 layout: post
 title: idli vada sambhar chutney
-date: 2006-10-09 05:44
 categories: Breakfast
 permalink: idli-vada-sambhar-chutney
 ---

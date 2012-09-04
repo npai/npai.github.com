@@ -1,7 +1,6 @@
 ---
 layout: post
 title: cold macaroni salad
-date: 2007-03-24 11:32
 categories: Snacks
 permalink: cold-macaroni-salad
 ---

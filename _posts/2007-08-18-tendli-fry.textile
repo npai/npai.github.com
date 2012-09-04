@@ -1,7 +1,6 @@
 ---
 layout: post
 title: tenDli fry
-date: 2007-08-18 20:41
 categories: Side-dishes
 permalink: tendli-fry
 ---

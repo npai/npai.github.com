@@ -1,7 +1,6 @@
 ---
 layout: post
 title: vaingaNa bhartha
-date: 2006-04-17 23:31
 categories: Side-dishes
 permalink: vaingana-bhartha
 ---

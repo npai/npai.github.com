@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Yakshagana at Honavar
-date: 2006-10-05 05:50
 categories: 
 permalink: yakshagana-at-honavar
 ---

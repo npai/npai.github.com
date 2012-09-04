@@ -1,7 +1,6 @@
 ---
 layout: post
 title: sungTa khoLu
-date: 2007-12-30 23:53
 categories: Nonveg-8211-Prawns
 permalink: sungta-kholu
 ---

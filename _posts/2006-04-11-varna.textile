@@ -1,7 +1,6 @@
 ---
 layout: post
 title: varNa
-date: 2006-04-11 22:40
 categories: Curry-and-Daals
 permalink: varna
 ---

@@ -1,7 +1,6 @@
 ---
 layout: post
 title: pathrode
-date: 2011-11-27 20:32
 categories: Side-dishes
 permalink: pathrode
 ---

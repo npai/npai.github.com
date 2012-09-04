@@ -1,7 +1,6 @@
 ---
 layout: post
 title: About Konkanirecipes.com
-date: 2008-04-17 11:06
 categories: 
 permalink: about-konkanirecipescom
 ---

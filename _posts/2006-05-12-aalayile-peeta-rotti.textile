@@ -1,7 +1,6 @@
 ---
 layout: post
 title: aaLayile peeTa roTTi
-date: 2006-05-12 03:32
 categories: Breakfast
 permalink: aalayile-peeta-rotti
 ---

@@ -1,7 +1,6 @@
 ---
 layout: post
 title: batata ani kaandya kaDamb
-date: 2006-07-01 10:08
 categories: Side-dishes
 permalink: batata-ani-kaandya-kadamb
 ---

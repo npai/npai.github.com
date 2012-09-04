@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Bittergourd Fry
-date: 2006-08-17 03:25
 categories: Side-dishes
 permalink: bittergourd-fry
 ---
