@@ -2,29 +2,29 @@
 layout: default
 ---
 
-{% assign post = page %}
-{% assign detail = true %}
-
 {% for post in paginator.posts %}
-  {% include _post.html %}
+
+   <!-- here add you post markup -->
+   <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+   <p class="author">
+    <span class="date">{{post.date}}</span>
+  </p>
+  <div class="content">
+    {{ post.content }}
+  </div>
 {% endfor %}
 
-{% if paginator.total_pages > 1 %}
+<!-- Pagination links -->
 <div class="pagination">
   {% if paginator.previous_page %}
-    <a class="prev" href="/{%if paginator.previous_page > 1 %}page{{ paginator.previous_page }}/{% endif %}">&laquo; Newer</a>
+    <a href="/page{{paginator.previous_page}}" class="previous">Previous</a>
+  {% else %}
+    <span class="previous">Previous</span>
   {% endif %}
-
-  {% for page in (1..paginator.total_pages) %}
-    {% if page == paginator.page %}
-      <span class="num">{{ page }}</span>
-    {% else %}
-      <a class="num" href="/{%if page > 1 %}page{{ page }}/{% endif %}">{{ page }}</a>
-    {% endif %}
-  {% endfor %}
-
+  <span class="page_number ">Page: {{paginator.page}} of {{paginator.total_pages}}</span>
   {% if paginator.next_page %}
-    <a class="next" href="/page{{ paginator.next_page }}/">Older &raquo;</a>
+    <a href="/page{{paginator.next_page}}" class="next ">Next</a>
+  {% else %}
+    <span class="next ">Next</span>
   {% endif %}
 </div>
-{% endif %}
