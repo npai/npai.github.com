@@ -1,9 +1,11 @@
 ---
 layout: default
-description: All Recipes
+title: All Recipes
 ---
+
+<h1>All recipes</h1>
         <ul>
             {% for post in site.posts if "blog" not in post.categories %}
-            <li><a href="{{ post.url }}">{{ post.title }}</a> <span>{{ post.date | date_to_string }}</span></li>  
+            <li><a href="{{ post.url }}" class="{{post.categories[0]}}">{{ post.title }}</a> <span>{{ post.date | date_to_string }}</span></li>  
             {% endfor %}
         </ul>
