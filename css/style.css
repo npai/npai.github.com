@@ -24,15 +24,19 @@ p {
 	max-width: 640px;
 	padding: 20px;
 }
-	#header h1 {
+	#header {
 		text-align: center;	
 
 	}
+	#header h1 {
+		margin:0px 0px 5px 0px;
+		border: none;
+	}
+
 	#header h1 a{
 		color: #c82829;
 		text-decoration: none;
-		margin:0px 0px 5px 0px;
-		border: none;
+		
 	}
 	#header p {
 		color: #4d4d4c;
