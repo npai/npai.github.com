@@ -5,11 +5,12 @@
   text-align: right; }
 
 #header {
-  height: 135px;
+/*  height: 135px;
   background-image: url(/img/header.png);
   background-repeat: no-repeat;
   position: relative;
-  overflow: hidden; }
+  overflow: hidden; 
+  */}
   #header h1 a {
     color: #ffffff;
     position: absolute;
