@@ -1,0 +1,9 @@
+----
+layout: post
+title: New Blog
+date: 2006-09-03 22:40
+categories: 
+permalink: new-blog
+----
+
+After contemplating for a while, I finally decided to start a blog section here. Keeping in mind the main purpose of this website, I want to blog about Konkani customs and cultural practices, temples, religious ceremonies, historical places, songs and just about anything that comes to my mind.

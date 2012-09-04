@@ -1,0 +1,15 @@
+----
+layout: post
+title: contact
+date: 2006-04-11 10:53
+categories: 
+permalink: contact
+----
+
+send in your comments! 
+<txp:zem_contact mailto="nayan.pai@gmail.com">
+<txp:zem_contact_email /><br />
+<txp:zem_contact_text label="Name" min=3 /><br />
+<txp:zem_contact_textarea label="Comment" /><br />
+<txp:zem_contact_submit label="Enquire" />
+</txp:zem_contact>
