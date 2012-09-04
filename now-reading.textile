@@ -2,7 +2,8 @@
 layout: post
 title: Now reading
 categories: blog
-permalink: now-reading
+permalink: now-Reading
+date: 2012-06-18
 ---
 
 <a href="http://en.wikipedia.org/wiki/Bossypants" title="Bossypants">Bossypants</a> by <a href="http://en.wikipedia.org/wiki/Tina_Fey" title="Tina Fey">Tina Fey</a> - Reading
