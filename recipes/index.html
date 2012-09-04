@@ -1,0 +1,9 @@
+---
+layout: default
+description: All Recipes
+---
+    <ul class=posts id=allposts>
+    {% for post in site.posts %}
+      <li><a href="{{ post.url }}">{{ post.title }}</a> <span>{{ post.date | date_to_string }}</span></li>
+    {% endfor %}
+    </ul>
