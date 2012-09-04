@@ -1,28 +1,26 @@
 ---
-layout: nil
-is_index: true
+layout: default
 ---
+{% for post in paginator.posts %}
+  {% include _post.html %}
+{% endfor %}
 
+{% if paginator.total_pages > 1 %}
+<div class="pagination">
+  {% if paginator.previous_page %}
+    <a class="prev" href="/{%if paginator.previous_page > 1 %}page{{ paginator.previous_page }}/{% endif %}">&laquo; Newer</a>
+  {% endif %}
 
-{% include header.html %}
-    {% for post in paginator.posts %}
-      {% include post.html %}
-    {% endfor %}
-	
-	<div class="pagination" id="bottom_page">
-		<ul>
-			{% if paginator.previous_page %}
-				{% if paginator.previous_page == 1 %}
-				<li class="previous"><a href="{{ linkhome }}">&larr; Previous</a></li>
-				{% else %}
-				<li class="previous"><a href="{{ site.baseurl }}/page{{ paginator.previous_page }}">&larr; Previous</a></li>
-				{% endif %}
-			{% endif %}
-				<li><p>Page {{ paginator.page }} of {{ paginator.total_pages }}</p></li>
-			{% if paginator.next_page %}
-				<li class="next"><a href="{{ site.baseurl }}/page{{ paginator.next_page }}">Next &rarr;</a></li>
-			{% endif %}
-		</ul>
-	</div>
+  {% for page in (1..paginator.total_pages) %}
+    {% if page == paginator.page %}
+      <span class="num">{{ page }}</span>
+    {% else %}
+      <a class="num" href="/{%if page > 1 %}page{{ page }}/{% endif %}">{{ page }}</a>
+    {% endif %}
+  {% endfor %}
 
-{% include footer.html %}
+  {% if paginator.next_page %}
+    <a class="next" href="/page{{ paginator.next_page }}/">Older &raquo;</a>
+  {% endif %}
+</div>
+{% endif %}
