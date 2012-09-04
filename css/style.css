@@ -20,8 +20,6 @@ p {
 #container, #footer {
 	background: #FFF;
 	border: 1px solid #AAA;
-	border-top: none;
-	border-bottom: none;
 	margin: 2em auto;
 	max-width: 640px;
 	padding: 20px;
@@ -34,7 +32,10 @@ p {
 		color: #c82829;
 		text-decoration: none;
 		margin:0px 0px 5px 0px;
-
+		border: none;
+	}
+	#header p {
+		color: #4d4d4c;
 	}
 	#footer {
 		border-top: 1px solid #AAA;
