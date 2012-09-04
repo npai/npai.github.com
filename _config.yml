@@ -8,4 +8,4 @@ title: "Konkani Recipes"
 permalink: /:title
 exclude:
   - README.md
-paginate: 5
+paginate: 3
