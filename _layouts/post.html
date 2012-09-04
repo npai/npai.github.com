@@ -8,10 +8,10 @@ layout: default
 {% include _post.html %}
 <div class="pagination">
   {% if page.previous %}
-    <a class="prev" href="{{ page.previous.url }}">&laquo; {{ page.previous.title | truncatewords:5 }}</a>
+    <a class="prev" href="/{{ page.previous.url }}">&laquo; {{ page.previous.title | truncatewords:5 }}</a>
   {% endif %}
   {% if page.next %}
-    <a class="next" href="{{ page.next.url }}">{{ page.next.title | truncatewords:5 }} &raquo;</a>
+    <a class="next" href="/{{ page.next.url }}">{{ page.next.title | truncatewords:5 }} &raquo;</a>
   {% endif %}
 </div>
 <div class="comments">
