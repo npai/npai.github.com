@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Happy Sankranthi
-categories: General
+categories: blog
 permalink: happy-sankranti
 ---
 
