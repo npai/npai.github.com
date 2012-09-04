@@ -9,3 +9,8 @@ a {
     text-decoration:none;
     margin-bottom: solid 1px #339;
 }
+
+.post-date, .post-title 
+{
+    text-align:center;
+}
