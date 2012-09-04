@@ -3,13 +3,13 @@
 </p>
 
 
-<h3 class="post-title">
+<h2 class="post-title">
     {% if detail %}
       {{ post.title }}
     {% else %}
       <a href="{{ post.url }}">{{ post.title }}</a>
     {% endif %}
-  </h3>
+  </h2>
   <div class="entry-contents">
     {% if detail %}
       {{ content }}
