@@ -26,7 +26,16 @@ p {
 	max-width: 640px;
 	padding: 20px;
 }
+	#header h1 {
+		
 
+	}
+	#header h1 a{
+		color: #c82829;
+		text-decoration: none;
+		margin:0px 0px 5px 0px;
+
+	}
 	#footer {
 		border-top: 1px solid #AAA;
 		font-size: 12px;
