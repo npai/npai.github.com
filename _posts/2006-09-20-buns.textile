@@ -1,10 +1,10 @@
-----
+---
 layout: post
 title: Buns
 date: 2006-09-20 22:44
 categories: Breakfast
 permalink: buns
-----
+---
 
 _buns_
 

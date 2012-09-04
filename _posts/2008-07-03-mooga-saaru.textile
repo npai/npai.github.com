@@ -1,10 +1,10 @@
-----
+---
 layout: post
 title: mooga saaru
 date: 2008-07-03 10:22
 categories: Curry-and-Daals
 permalink: mooga-saaru
-----
+---
 
 _moong curry_
 

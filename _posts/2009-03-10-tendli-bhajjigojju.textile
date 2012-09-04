@@ -1,10 +1,10 @@
-----
+---
 layout: post
 title: tenDli bhajji-gojju
 date: 2009-03-10 13:40
 categories: Side-dishes
 permalink: tendli-bhajjigojju
-----
+---
 
 _ivygourd sidedish_
 

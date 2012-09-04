@@ -1,10 +1,10 @@
-----
+---
 layout: post
 title: poLo ani bhajji
 date: 2008-01-04 00:26
 categories: Breakfast
 permalink: polo-ani-bhajji
-----
+---
 
 _dosa with curry_
 

@@ -1,10 +1,10 @@
-----
+---
 layout: post
 title: eNagaayi
 date: 2008-07-08 08:23
 categories: Side-dishes
 permalink: enagaayi
-----
+---
 
 _eggplant sidedish_
 

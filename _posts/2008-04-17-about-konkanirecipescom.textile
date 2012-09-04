@@ -1,10 +1,10 @@
-----
+---
 layout: post
 title: About Konkanirecipes.com
 date: 2008-04-17 11:06
 categories: 
 permalink: about-konkanirecipescom
-----
+---
 
 My name is Nayantara. I am from a beautiful place called <a href="http://www.kamat.com/kalranga/karavali/honavar/index.htm" title="Honavar">Honavar</a> on the West Coast of India, Karnataka state, Uttar Kannada district. In this blog, I want to write mainly about Konkani food which is characteristic to the Uttar Kannada district ... Honavar, Kumta, Karwar, Ankola. I attribute all the konkani recipes here to my mother. Amma always makes mouth-watering dark-red coloured authentic konkani veg and non-veg dishes. I have never come across a better cook than her.
 

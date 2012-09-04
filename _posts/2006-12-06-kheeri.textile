@@ -1,10 +1,10 @@
-----
+---
 layout: post
 title: kheeri
 date: 2006-12-06 00:14
 categories: Rice-items
 permalink: kheeri
-----
+---
 
 _kheeri_
 

@@ -1,10 +1,10 @@
-----
+---
 layout: post
 title: taLile shenga
 date: 2006-07-23 02:53
 categories: Munchies
 permalink: talile-shenga
-----
+---
 
 _Roasted Masala Peanuts_
 

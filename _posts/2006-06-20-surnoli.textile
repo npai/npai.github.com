@@ -1,10 +1,10 @@
-----
+---
 layout: post
 title: surnoLi
 date: 2006-06-20 21:35
 categories: Breakfast
 permalink: surnoli
-----
+---
 
 _sweet dosa_
 

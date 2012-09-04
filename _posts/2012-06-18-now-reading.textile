@@ -1,10 +1,10 @@
-----
+---
 layout: post
 title: Now reading
 date: 2012-06-18 18:51
 categories: 
 permalink: now-reading
-----
+---
 
 <a href="http://en.wikipedia.org/wiki/Bossypants" title="Bossypants">Bossypants</a> by <a href="http://en.wikipedia.org/wiki/Tina_Fey" title="Tina Fey">Tina Fey</a> - Reading
 

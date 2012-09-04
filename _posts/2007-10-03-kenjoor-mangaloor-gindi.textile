@@ -1,10 +1,10 @@
-----
+---
 layout: post
 title: kenjoor mangaloor ginDi
 date: 2007-10-03 05:23
 categories: 
 permalink: kenjoor-mangaloor-gindi
-----
+---
 
 <font size="3" >
 ಕೆ೦ಜೂರ ಮ೦ಗಳೂರ ಗಿ೦ಡಿ

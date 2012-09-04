@@ -1,10 +1,10 @@
-----
+---
 layout: post
 title: vegetable pulav
 date: 2007-10-14 02:38
 categories: Rice-items
 permalink: vegetable-pulav
-----
+---
 
 _vegetable pulav_
 

@@ -1,9 +1,9 @@
-----
+---
 layout: post
 title: New Blog
 date: 2006-09-05 00:49
 categories: 
 permalink: new-blog
-----
+---
 
 Have a peep at my <a href="http://www.konkanirecipes.com/blog">new blog</a> section. 

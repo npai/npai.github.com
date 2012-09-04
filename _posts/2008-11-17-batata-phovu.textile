@@ -1,10 +1,10 @@
-----
+---
 layout: post
 title: batata phovu
 date: 2008-11-17 11:06
 categories: Breakfast
 permalink: batata-phovu
-----
+---
 
 _poha with potato_
 

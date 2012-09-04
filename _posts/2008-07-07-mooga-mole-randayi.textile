@@ -1,10 +1,10 @@
-----
+---
 layout: post
 title: mooga moLe randayi
 date: 2008-07-07 06:35
 categories: Curry-and-Daals
 permalink: mooga-mole-randayi
-----
+---
 
 _sprouted moong curry_
 

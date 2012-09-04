@@ -1,10 +1,10 @@
-----
+---
 layout: post
 title: Cabbage sannapoLo
 date: 2006-07-02 10:24
 categories: Side-dishes
 permalink: cabbage-sannapolo
-----
+---
 
 _Cabbage sidedish_
 

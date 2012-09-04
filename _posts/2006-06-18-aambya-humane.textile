@@ -1,10 +1,10 @@
-----
+---
 layout: post
 title: aambya humaNe
 date: 2006-06-18 23:49
 categories: Sweet-Dishes
 permalink: aambya-humane
-----
+---
 
 _mango sidedish_
 

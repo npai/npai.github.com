@@ -1,10 +1,10 @@
-----
+---
 layout: post
 title: chaNe usLi
 date: 2007-11-07 18:59
 categories: Snacks
 permalink: chane-usli
-----
+---
 
 _tempered chickpeas_
 

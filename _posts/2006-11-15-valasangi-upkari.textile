@@ -1,10 +1,10 @@
-----
+---
 layout: post
 title: valasangi upkari
 date: 2006-11-15 23:50
 categories: Side-dishes
 permalink: valasangi-upkari
-----
+---
 
 _beans sidedish_
 

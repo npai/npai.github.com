@@ -1,10 +1,10 @@
-----
+---
 layout: post
 title: chutney piTTo
 date: 2007-02-17 09:48
 categories: Pickles-and-Powders
 permalink: chutney-pitto
-----
+---
 
 _Chutney powder_
 

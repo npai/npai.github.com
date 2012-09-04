@@ -1,10 +1,10 @@
-----
+---
 layout: post
 title: choLkya bhaakri
 date: 2006-06-12 01:04
 categories: Breakfast
 permalink: cholkya-bhaakri
-----
+---
 
 _Rice flour roti on banana leaf_
 

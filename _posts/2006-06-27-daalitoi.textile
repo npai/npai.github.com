@@ -1,10 +1,10 @@
-----
+---
 layout: post
 title: daaLitoi
 date: 2006-06-27 23:49
 categories: Curry-and-Daals
 permalink: daalitoi
-----
+---
 
 _daal_
 

@@ -1,10 +1,10 @@
-----
+---
 layout: post
 title: Palak Upkari
 date: 2008-06-02 13:43
 categories: Side-dishes
 permalink: palak-upkari
-----
+---
 
 _spinach stir-fry_
 

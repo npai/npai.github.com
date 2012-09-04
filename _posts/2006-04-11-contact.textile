@@ -1,10 +1,10 @@
-----
+---
 layout: post
 title: contact
 date: 2006-04-11 10:53
 categories: 
 permalink: contact
-----
+---
 
 send in your comments! 
 <txp:zem_contact mailto="nayan.pai@gmail.com">

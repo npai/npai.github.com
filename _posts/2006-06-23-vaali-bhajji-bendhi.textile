@@ -1,10 +1,10 @@
-----
+---
 layout: post
 title: vaaLi bhajji bendhi
 date: 2006-06-23 06:01
 categories: Curry-and-Daals
 permalink: vaali-bhajji-bendhi
-----
+---
 
 _greens curry_
 
