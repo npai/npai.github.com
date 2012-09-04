@@ -2,7 +2,8 @@
 layout: post
 title: pathrode
 categories: Side-dishes
-permalink: pathrode
+permalink: pathrode 
+comments: true
 ---
 
 _pathrode_
