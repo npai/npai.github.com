@@ -5,6 +5,7 @@
 # For more details about configuring Jekyll.
 #
 title: "Konkani Recipes"
+comment: "Authentic Konkani Dishes from Coastal Karnataka"
 permalink: /:title
 exclude:
   - README.md
