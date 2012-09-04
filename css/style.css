@@ -22,10 +22,11 @@ p {
 	border: 1px solid #AAA;
 	border-top: none;
 	border-bottom: none;
-	margin: 0 auto;
+	margin: 2em auto;
 	max-width: 640px;
 	padding: 20px;
 }
+
 	#footer {
 		border-top: 1px solid #AAA;
 		font-size: 12px;
