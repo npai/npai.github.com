@@ -40,6 +40,9 @@ p {
 		
 	}
 	#header p {
+	    font-family: 'Droid Sans Mono', sans-serif;
+        color: #8e908c;
+        font-size:12px;
         margin-top: 0px;
         padding-top:0px;
 		color: #4d4d4c;
