@@ -1,5 +1,6 @@
-Spinto base with Bootstrap
-==========================
+Konkanirecipes.com
+==================
+
 
 A simple site to get you started with Jekyll and [Spinto](http://www.spintoapp.com)
 using the [Bootstrap](http://twitter.github.com/bootstrap/) framework v2.0.1.
