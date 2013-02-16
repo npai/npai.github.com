@@ -1,12 +1,15 @@
-# This sets a blank configuation. See:
-#
-# https://github.com/mojombo/jekyll/wiki/configuration
-#
-# For more details about configuring Jekyll.
-#
 title: "Konkani Recipes"
 comment: "Authentic Konkani Dishes from Coastal Karnataka"
 permalink: /:title
+paginate: 3
+destination: ./_site
+auto:        false
+lsi:         false
+pygments:    true
+markdown:    maruku
+maruku:
+  use_tex:   false
+  use_divs:  false
+
 exclude:
   - README.md
-paginate: 3
