@@ -35,10 +35,3 @@ Then start the server:
 ``` bash
 spinto-site --server --auto
 ```
-
-
-**Additional information**
-
-See this example site live at:
-
-* [bootstrapbase.spintoapp.com](http://bootstrapbase.spintoapp.com)
