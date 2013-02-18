@@ -12,5 +12,3 @@ This site has the following pages:
   * Individual pages for each blog post.
 
 Navigation and page layout is in the `_layouts` directory.
-
-
