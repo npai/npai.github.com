@@ -2,7 +2,6 @@ Konkanirecipes.com
 ==================
 
 
-A simple site to get you started with Jekyll.
  
 This site has the following pages:
 
