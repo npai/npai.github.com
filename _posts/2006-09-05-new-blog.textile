@@ -1,8 +1,0 @@
----
-layout: post
-title: New Blog
-categories: 
-permalink: new-blog
----
-
-Have a peep at my <a href="http://www.konkanirecipes.com/blog">new blog</a> section. 
