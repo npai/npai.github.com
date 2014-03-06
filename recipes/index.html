@@ -1,9 +1,9 @@
 ---
 layout: default
-title: All Recipes
+title: Recipes
 ---
 
-<h1>Index</h1>
+<h1>All Recipes</h1>
 <ul class="posts" id="allposts">
     {% for post in site.posts if "blog" not in post.categories %}
     <li><a href="/{{post.url}}" class="{{post.categories[0]}}">{{ post.title }}</a> <span>{{ post.date | date_to_string }}</span></li>  
