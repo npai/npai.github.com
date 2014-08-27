@@ -5,10 +5,6 @@ paginate: 3
 auto:        false
 lsi:         false
 pygments:    true
-markdown:    maruku
-maruku:
-  use_tex:   false
-  use_divs:  false
-
+markdown:    kramdown
 exclude:
   - README.md
