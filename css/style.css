@@ -1,7 +1,7 @@
 body {
 	font-family: Helvetica,arial,freesans,clean,sans-serif;
 	font-size: 15px;
-	background: #3A2F0B;
+	background: #FFA500;
 	color: #111;
 }
 
@@ -25,7 +25,7 @@ p {
 	padding: 20px;
 }
 	#header {
-		text-align: center;	
+		text-align: center;
 
 	}
 	#header h1 {
@@ -37,7 +37,7 @@ p {
 	#header h1 a{
 		color: #c82829;
 		text-decoration: none;
-		
+
 	}
 	#header p {
 	    font-family: 'Droid Sans Mono', sans-serif;
@@ -141,7 +141,7 @@ ul.posts li
   line-height: 2em;
 }
 
-#allposts li span 
+#allposts li span
 {
   color:#c82829;
   float:right;
@@ -154,10 +154,10 @@ ul.posts li
       margin: 0 0 3em 0;
       padding: 0;
       list-style: none;
-      border-bottom: 1px solid #ccc; 
+      border-bottom: 1px solid #ccc;
       border-top: 1px solid #ccc; }
    #nav li {
-      float: left; 
+      float: left;
       list-style-type:none;
 }
    #nav li a {
@@ -166,9 +166,9 @@ ul.posts li
       text-decoration: none;
       font-weight: bold;
       color: #c82829;
-      border-right: 1px solid #ccc; 
+      border-right: 1px solid #ccc;
 }
    #nav li a:hover {
       color: #c00;
-      background-color: #fff; 
+      background-color: #fff;
 }
