@@ -27,14 +27,13 @@ I dont like eating happaLs for every meal like some konkani people do, but every
 * Grated coconut - about 3 tablespoons
 * Onion cut into small pieces - about 1 tablespoon
 * Green chilles - 1
-* Grated coconut - 3/4th cup
 * Roasted happaL - 2
 
 
 **Method**
 
 * Mix the coconut, onions and green chillies beforehand.
-* Add the chopped onions, green chillies, some water and salt to it and boil. This step didnt take more than 5 minutes long for me as the crab was already cooked.
-* You can adjust the proportion of the above ingredients as per your taste and preference. There is no need to add salk as happaL already is salty.
+* Add the crushed happal just before serving
+* You can adjust the proportion of the above ingredients as per your taste and preference. There is no need to add salt as happaL already is salty.
 
 Preparation time: 5 minutes
