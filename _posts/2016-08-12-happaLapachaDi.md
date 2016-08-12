@@ -13,9 +13,14 @@ These spicy happaLs are a must in every konkani household (red pappad - though t
 I dont like eating happaLs for every meal like some konkani people do, but every now and then  I do long to eat them.
 
 
-![](https://flic.kr/p/KVKsxy
-![](https://flic.kr/p/KDMtK3)
-![](https://flic.kr/p/KDMuw3)
+![](/images/happala-pachadi-1.jpg)
+
+
+![](/images/happala-pachadi-2.jpg)
+
+
+![](/images/happala-pachadi-3.jpg)
+
 
 **Ingredients**
 
