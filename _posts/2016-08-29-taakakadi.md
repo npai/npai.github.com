@@ -7,7 +7,7 @@ permalink: taakakadi
 
 *Buttermilk gravy*
 
-There are different versions kinds of buttermilk kaDis that are part of the konkani cuisine. This one has garlic in it and it doesnt require any cooking. I recently made this and the 6 year old loved it. So it is another addition to week night, kid friendly dinners these days. It gets ready in just 5 minutes. I usually dont make buttermilk, so I take some yogurt, mix it well and dilute with enough water.
+There are different versions of buttermilk kaDis that are part of the konkani cuisine. This one has garlic in it and it doesnt require any cooking. I recently made this and the 6 year old loved it. So it is another addition to week night, kid-friendly dinners these days. It gets ready in just 5 minutes. I usually dont make buttermilk, so I take some yogurt, mix it well and dilute with enough water.
 
 ![](/images/28972367442_84521a3026_z.jpg)
 
