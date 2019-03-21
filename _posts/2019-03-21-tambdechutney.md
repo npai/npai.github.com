@@ -7,7 +7,7 @@ permalink: taakakadi
 
 *Red chutney*
 
-The most common konkani breakfast will be either idli or some variety of dosa. To break the monotony different kind of chutneys are made. This tambDe chutney is one of a typical konkani chutney that my mother used to make a lot especially with idli.
+The most common konkani breakfast will be either idli or some variety of dosa. To break the monotony different kind of chutneys are made. This tambDe chutney is one of a typical konkani chutney that my mother makes a lot especially with idli.
 
 ![](/images/IMG-4266_640x480.jpg)
 
