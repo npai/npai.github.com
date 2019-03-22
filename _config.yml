@@ -1,7 +1,7 @@
 title: "Konkani Recipes"
 comment: "Authentic Konkani Dishes from Coastal Karnataka"
 permalink: /:title.html
-paginate: 5
+paginate: 8
 auto:        false
 lsi:         false
 pygments:    true
