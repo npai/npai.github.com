@@ -26,8 +26,8 @@ Along with the chickpeas you can add raw bananas or <a href="https://specialtypr
 
 **Method**
 
-* The chickpeas takes longer to cook when compared to the vegetable you choose to add. So pressure cook the chickpeas with some salt and then when it is almost cooked, add the suran to it, till it is tender.
-* Dry roast the red chilles for a bit and then make a smooth paste of cocunut, chillies and tamarind with some water.
+* The chickpeas takes longer to cook when compared to the vegetable you choose to add. So pressure cook the chickpeas with some salt and then when it is almost cooked, add the suran to it, cook till it is tender.
+* Dry roast the red chilles for a bit and then make a smooth paste of coconut, chillies and tamarind with some water.
 * Add the paste to the cooked chana and boil well, adjust salt to taste.
 * Temper with mustard, curry leaves and hing. I use coconut oil for tempering.
 
