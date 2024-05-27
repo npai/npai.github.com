@@ -170,6 +170,11 @@ ul.posts li {
     line-height: 2em;
 }
 
+span.postdate {
+    font-family: monospace;
+    margin-right: 2em;
+}
+
 /* navigation */
 #nav {
     width: 100%;
@@ -198,9 +203,4 @@ ul.posts li {
 #nav li a:hover {
     color: #c00;
     background-color: #fff;
-}
-
-.postdate {
-    font-family: monospace;
-    margin-right: 2em;
 }

@@ -4,10 +4,10 @@ title: Recipes
 ---
 
 <h1>All Recipes</h1>
-<ul>
+<ul class="posts">
     {% for post in site.posts if "blog" not in post.categories %}
     <li>
-        <date class="postdate">{{ post.date | date_to_string }}</date>
+        <span class="postdate">{{ post.date | date_to_string }}</span>
         <a href="{{site.url}}{{post.url}}" class="{{post.categories[0]}}"
             >{{ post.title }}</a
         >
