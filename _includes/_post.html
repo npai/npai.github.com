@@ -1,24 +1,21 @@
 <p class="post-date">
   {{ post.date | date:'%b %d, %Y' | replace:'>0','>' }}
 </p>
-
-
 <h2 class="post-title">
-    {% if detail %}
-      {{ post.title }}
-    {% else %}
-      <a href="{{ post.url }}">{{ post.title }}</a>
-    {% endif %}
-  </h2>
-  <div class="entry-contents">
-    {% if detail %}
-      {{ content }}
-    {% else %}
-      {{ post.content }}
-    {% endif %}
-  </div>
-
-  <div class="entry-footer">
-    <div id="disqus_thread"></div>
-    <a class="entry-comments" href="{{ post.url }}#disqus_thread">0</a>
-  </div>
+{% if detail %}
+  {{ post.title }}
+{% else %}
+  <a href="{{ post.url }}">{{ post.title }}</a>
+{% endif %}
+</h2>
+<div class="entry-contents">
+  {% if detail %}
+    {{ content }}
+  {% else %}
+    {{ post.content }}
+  {% endif %}
+</div>
+<div class="entry-footer">
+  <div id="disqus_thread"></div>
+  <a class="entry-comments" href="{{ post.url }}#disqus_thread">0</a>
+</div>
