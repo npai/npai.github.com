@@ -21,17 +21,17 @@ _Ingredients_
 * Red chillies - 2
 * Green chillies - 2
 * Udad daal - half teaspoon
-* Bay leaves - a strand
-* Salt to taste	
+* Curry leaves - a strand
+* Salt to taste
 
 _Method_
 
 * Peel the mangoes and squeeze the pulp. ( Do not throw away the seed )
 * To this add the grated jaggery and mix well. If the mangoes are sour, add more jaggery.
-* Heat some oil in a pan. 
-* Add the mustard. After it sputters, add the udad daal, red chillies, green chillies and bay leaves.
+* Heat some oil in a pan.
+* Add the mustard. After it sputters, add the udad daal, red chillies, green chillies and curry leaves.
 * To this add the mango pulp (along with the seed), little water to dilute and salt to taste.
-* Bring this to boil.  
+* Bring this to boil.
 
 _Tips_
 
