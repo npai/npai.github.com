@@ -2,7 +2,7 @@
 layout: post
 title: tambDe chutney
 categories: Side-dishes
-permalink: taakakadi
+permalink: tambdechutney
 ---
 
 *Red chutney*
