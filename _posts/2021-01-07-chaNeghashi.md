@@ -8,9 +8,9 @@ permalink: chaneghashi
 *Chickpea curry*
 
 chaNe ghashi is a very traditional konkani gravy/curry. It is traditionally made with small black chickpeas, but can be made with the bigger chickpeas as well.
-Along with the chickpeas you can add raw bananas or <a href="https://specialtyproduce.com/produce/Suran_Root_12567.php">Suran</a> (elephant yam ) for added flavor and taste. 
+Along with the chickpeas you can add raw bananas or <a href="https://specialtyproduce.com/produce/Suran_Root_12567.php">Suran</a> (elephant yam ) for added flavor and taste.
 
-![](/images/ChaNe - Copy.jpg)
+![](/images/ChaNe.jpg)
 
 
 **Ingredients**

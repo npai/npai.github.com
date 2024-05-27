@@ -1,52 +1,54 @@
 <!doctype html>
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<html lang="en">
     <head>
         <title>
-        {% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}
+            {% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}
         </title>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <meta name="description" content="{{ site.description }}" />
+        {% if site.feed %}
         <link
             rel="alternate"
             type="application/atom+xml"
             title="Recent Entries"
             href="{{ site.feed }}"
-            />
-            <link href="/css/style.css" rel="stylesheet" type="text/css" />
-        </head>
-        <body>
-            <div id="container">
-                <div id="header" class="span-24 last">
-                    {% include _header.html %}
-                </div>
-                <div id="contents" class="span-24 last">{{ content }}</div>
-                <div id="footer" class="span-24 last">
-                    {% include _footer.html %}
-                </div>
+        />
+        {% endif %}
+        <link href="/css/style.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <div id="container">
+            <div id="header" class="span-24 last">
+                {% include _header.html %}
             </div>
-            <script type="text/javascript">
+            <div id="contents" class="span-24 last">{{ content }}</div>
+            <div id="footer" class="span-24 last">
+                {% include _footer.html %}
+            </div>
+        </div>
+        <script type="text/javascript">
             //<![CDATA[
             (function () {
-            var links = document.getElementsByTagName("a");
-            var query = "?";
-            for (var i = 0; i < links.length; i++) {
-            if (links[i].href.indexOf("#disqus_thread") >= 0) {
-            query +=
-            "url" +
-            i +
-            "=" +
-            encodeURIComponent(links[i].href) +
-            "&";
-            }
-            }
-            document.write(
-            '<script charset="utf-8" type="text/javascript" src="http://disqus.com/forums/konkanirecipes/get_num_replies.js' +
-            query +
-            '"></' +
-            "script>",
-            );
+                var links = document.getElementsByTagName("a");
+                var query = "?";
+                for (var i = 0; i < links.length; i++) {
+                    if (links[i].href.indexOf("#disqus_thread") >= 0) {
+                        query +=
+                            "url" +
+                            i +
+                            "=" +
+                            encodeURIComponent(links[i].href) +
+                            "&";
+                    }
+                }
+                document.write(
+                    '<script charset="utf-8" type="text/javascript" src="http://disqus.com/forums/konkanirecipes/get_num_replies.js' +
+                        query +
+                        '"></' +
+                        "script>",
+                );
             })();
             //]]>
-            </script>
-        </body>
-    </html>
+        </script>
+    </body>
+</html>
