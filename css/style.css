@@ -1,194 +1,206 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
-@import url('normalize.css');
+@import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
+@import url("normalize.css");
 
 body {
-	font-family: "Merriweather", serif;
-	font-size: 15px;
-	background: #FFA500;
-	color: #111;
+    font-family: "Merriweather", serif;
+    font-size: 15px;
+    background: #ffa500;
+    color: #111;
 }
 
-a, a:active, a:visited, a:hover {
-	color: #4271ae;
-	text-decoration: none;
+a,
+a:active,
+a:visited,
+a:hover {
+    color: #4271ae;
+    text-decoration: none;
 }
 
 a:hover {
-	text-decoration: underline;
+    text-decoration: underline;
 }
 
 p {
-	line-height: 24px;
+    line-height: 24px;
 }
 
-#container, #footer {
-	background: #FFF;
-	border: 1px solid #AAA;
-	margin: 2em auto;
-	max-width: 1100px;
-	padding: 20px;
+#container,
+#footer {
+    background: #fff;
+    border: 1px solid #aaa;
+    margin: 2em auto;
+    max-width: 1100px;
+    padding: 20px;
 }
 
 #header {
-	text-align: center;
+    text-align: center;
 }
 
 #header h1 {
-	margin: 0px 0px 5px 0px;
-	padding-bottom: 0px;
-	border: none;
+    margin: 0px 0px 5px 0px;
+    padding-bottom: 0px;
+    border: none;
 }
 
 #header h1 a {
-	color: #c82829;
-	text-decoration: none;
+    color: #c82829;
+    text-decoration: none;
 }
 
 #header p {
-	color: #8e908c;
-	font-size: 12px;
-	margin-top: 0px;
-	padding-top: 0px;
-	color: #4d4d4c;
+    color: #8e908c;
+    font-size: 12px;
+    margin-top: 0px;
+    padding-top: 0px;
+    color: #4d4d4c;
 }
 
 #footer {
-	border-top: 1px solid #AAA;
-	font-size: 12px;
-	padding: 10px 20px;
+    border-top: 1px solid #aaa;
+    font-size: 12px;
+    padding: 10px 20px;
 }
 
 ul li {
-	list-style: circle;
+    list-style: circle;
 }
 
-h1, h2, h3, h4, h5, h6 {
-	font-family: "Merriweather Sans", sans-serif;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Merriweather Sans", sans-serif;
 }
 
 h1 {
-	border-bottom: 1px solid #AAA;
-	margin: 0 0 20px;
-	padding: 0 0 10px;
-	font-size: 30px;
+    border-bottom: 1px solid #aaa;
+    margin: 0 0 20px;
+    padding: 0 0 10px;
+    font-size: 30px;
 }
 
 h1.title {
-	display: none;
+    display: none;
 }
 
 h2 {
-	font-size: 20px;
-	border-bottom: 1px solid #c82829;
-	padding: 0 0 5px;
-	margin: 20px 0 10px;
+    font-size: 20px;
+    border-bottom: 1px solid #c82829;
+    padding: 0 0 5px;
+    margin: 20px 0 10px;
 }
 
-code, pre, .code {
-	font-family: "Droid Sans Mono", monospace;
-	font-size: 14px;
+code,
+pre,
+.code {
+    font-family: "Droid Sans Mono", monospace;
+    font-size: 14px;
 }
 
-code, pre {
-	background: #EAEAEA;
-	border: 1px solid #CCC;
+code,
+pre {
+    background: #eaeaea;
+    border: 1px solid #ccc;
 }
 
 pre {
-	padding: 5px;
-	margin: 5px;
+    padding: 5px;
+    margin: 5px;
 }
 
 img.block {
-	display: block;
-	margin: 0 auto;
+    display: block;
+    margin: 0 auto;
 }
 
 #contents table.paging {
-	margin: 1px 0 0;
-	border-top: 1px solid #AAA;
-	width: 100%;
+    margin: 1px 0 0;
+    border-top: 1px solid #aaa;
+    width: 100%;
 }
 
 #contents table.paging td {
-	width: 33%;
-	text-align: center;
-	padding: 10px 0 0;
-	border: none;
+    width: 33%;
+    text-align: center;
+    padding: 10px 0 0;
+    border: none;
 }
 
 #contents table.paging td.prev {
-	text-align: left;
+    text-align: left;
 }
 
 #contents table.paging td.next {
-	text-align: right;
+    text-align: right;
 }
 
 #toc ol {
-	margin: 0;
-	padding: 5px 20px;
+    margin: 0;
+    padding: 5px 20px;
 }
 
 #toc li {
-	padding: 0;
-	margin: 5px 0;
+    padding: 0;
+    margin: 5px 0;
 }
 
 #toc li li {
-	list-style: circle;
+    list-style: circle;
 }
 
 #contents table {
-	border-collapse: collapse;
-	margin: 2px auto;
+    border-collapse: collapse;
+    margin: 2px auto;
 }
 
 #contents tr td:first-child {
-	text-align: center;
+    text-align: center;
 }
 
 #contents td {
-	border: 1px solid #CCC;
-	padding: 5px;
+    border: 1px solid #ccc;
+    padding: 5px;
 }
 
 ul.posts li {
-	list-style-type: none;
-	line-height: 2em;
-}
-
-#allposts li span {
-	color: #c82829;
-	float: right;
+    list-style-type: none;
+    line-height: 2em;
 }
 
 /* navigation */
 #nav {
-	width: 100%;
-	float: left;
-	margin: 0 0 3em 0;
-	padding: 0;
-	list-style: none;
-	border-bottom: 1px solid #ccc;
-	border-top: 1px solid #ccc;
+    width: 100%;
+    float: left;
+    margin: 0 0 3em 0;
+    padding: 0;
+    list-style: none;
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #ccc;
 }
 
 #nav li {
-	float: left;
-	list-style-type: none;
+    float: left;
+    list-style-type: none;
 }
 
 #nav li a {
-	display: block;
-	padding: 8px 15px;
-	text-decoration: none;
-	font-weight: bold;
-	color: #c82829;
-	border-right: 1px solid #ccc;
+    display: block;
+    padding: 8px 15px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #c82829;
+    border-right: 1px solid #ccc;
 }
 
 #nav li a:hover {
-	color: #c00;
-	background-color: #fff;
+    color: #c00;
+    background-color: #fff;
+}
+
+.postdate {
+    font-family: monospace;
+    margin-right: 2em;
 }
