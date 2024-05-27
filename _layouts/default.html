@@ -1,8 +1,8 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!doctype html>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
     <head>
         <title>
-            {% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}
+        {% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}
         </title>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <meta name="generator" content="Jekyll" />
@@ -13,73 +13,43 @@
             type="application/atom+xml"
             title="Recent Entries"
             href="{{ site.feed }}"
-        />
-
-        <!--[if lt IE 8
-            ]><link
-                rel="stylesheet"
-                href="css/blueprint/ie.css"
-                type="text/css"
-                media="screen, projection"
-        /><![endif]-->
-
-        <link
-            href="http://fonts.googleapis.com/css?family=Droid+Sans+Mono"
-            rel="stylesheet"
-            type="text/css"
-        />
-        <link
-            href="http://fonts.googleapis.com/css?family=Droid+Serif"
-            rel="stylesheet"
-            type="text/css"
-        />
-        <link href="/css/normalize.css" rel="stylesheet" type="text/css" />
-        <link href="/css/style.css" rel="stylesheet" type="text/css" />
-
-        <script
-            src="http://www.google.com/jsapi"
-            type="text/javascript"
-            charset="utf-8"
-        ></script>
-        <script type="text/javascript">
-            google.load("jquery", "3.7.1");
-            google.load("jqueryui", "1.13.3");
-        </script>
-    </head>
-    <body>
-        <div id="container">
-            <div id="header" class="span-24 last">
-                {% include _header.html %}
+            />
+            <link href="/css/normalize.css" rel="stylesheet" type="text/css" />
+            <link href="/css/style.css" rel="stylesheet" type="text/css" />
+        </head>
+        <body>
+            <div id="container">
+                <div id="header" class="span-24 last">
+                    {% include _header.html %}
+                </div>
+                <div id="contents" class="span-24 last">{{ content }}</div>
+                <div id="footer" class="span-24 last">
+                    {% include _footer.html %}
+                </div>
             </div>
-            <div id="contents" class="span-24 last">{{ content }}</div>
-            <div id="footer" class="span-24 last">
-                {% include _footer.html %}
-            </div>
-        </div>
-
-        <script type="text/javascript">
+            <script type="text/javascript">
             //<![CDATA[
             (function () {
-                var links = document.getElementsByTagName("a");
-                var query = "?";
-                for (var i = 0; i < links.length; i++) {
-                    if (links[i].href.indexOf("#disqus_thread") >= 0) {
-                        query +=
-                            "url" +
-                            i +
-                            "=" +
-                            encodeURIComponent(links[i].href) +
-                            "&";
-                    }
-                }
-                document.write(
-                    '<script charset="utf-8" type="text/javascript" src="http://disqus.com/forums/konkanirecipes/get_num_replies.js' +
-                        query +
-                        '"></' +
-                        "script>",
-                );
+            var links = document.getElementsByTagName("a");
+            var query = "?";
+            for (var i = 0; i < links.length; i++) {
+            if (links[i].href.indexOf("#disqus_thread") >= 0) {
+            query +=
+            "url" +
+            i +
+            "=" +
+            encodeURIComponent(links[i].href) +
+            "&";
+            }
+            }
+            document.write(
+            '<script charset="utf-8" type="text/javascript" src="http://disqus.com/forums/konkanirecipes/get_num_replies.js' +
+            query +
+            '"></' +
+            "script>",
+            );
             })();
             //]]>
-        </script>
-    </body>
-</html>
+            </script>
+        </body>
+    </html>
