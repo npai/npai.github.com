@@ -2,6 +2,7 @@
 
 source "https://rubygems.org"
 
-# gem "rails"
-
 gem "jekyll", "~> 4.3"
+gem "jekyll-paginate"
+gem "base64"
+gem "csv"

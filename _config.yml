@@ -6,5 +6,6 @@ auto:        false
 lsi:         false
 highlighter: 'rouge'
 markdown:    kramdown
+plugins: [jekyll-paginate]
 exclude:
   - README.md
