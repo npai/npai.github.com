@@ -2,29 +2,39 @@
 <html lang="en">
     <head>
         <title>
-            {% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}
+        {% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}
         </title>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <meta name="description" content="{{ site.description }}" />
         {% if site.feed %}
-        <link
-            rel="alternate"
-            type="application/atom+xml"
-            title="Recent Entries"
-            href="{{ site.feed }}"
-        />
-        {% endif %}
-        <link href="/css/style.css" rel="stylesheet" type="text/css" />
-    </head>
-    <body>
-        <div id="container">
-            <div id="header" class="span-24 last">
+            <link
+                rel="alternate"
+                type="application/atom+xml"
+                title="Recent Entries"
+                href="{{ site.feed }}"
+                />
+            {% endif %}
+            <link rel="stylesheet" href="/css/matcha.css">
+        </head>
+        <body class="layout-simple">
+            <header>
                 {% include _header.html %}
-            </div>
-            <div id="contents" class="span-24 last">{{ content }}</div>
-            <div id="footer" class="span-24 last">
-                {% include _footer.html %}
-            </div>
-        </div>
+            </header>
+            <main>
+            <section>{{ content }}</section>
+        </main>
+        <aside>
+            <nav>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/recipes/">All Recipes</a></li>
+                    <li><a href="/about/">About</a></li>
+                    <li><a href="/now-reading/">Now Reading</a></li>
+                </ul>
+            </nav>
+        </aside>
+        <footer>
+            {% include _footer.html %}
+        </footer>
     </body>
 </html>

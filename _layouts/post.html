@@ -4,12 +4,18 @@ layout: default
 
 {% assign post = page %}
 {% assign detail = true %}
+<article>
 {% include _post.html %}
-<div class="pagination">
+<footer class=muted>
+  <nav>
+  <ol>
   {% if page.previous %}
-    <a class="prev" href="{{site.url}}{{ page.previous.url }}">&laquo; {{ page.previous.title | truncatewords:10 }}</a>
+    <li><a class="prev" href="{{site.url}}{{ page.previous.url }}">{{ page.previous.title | truncatewords:10 }}</a></li>
   {% endif %}
   {% if page.next %}
-    <a class="next" href="{{site.url}}{{ page.next.url }}">{{ page.next.title | truncatewords:10 }} &raquo;</a>
+    <li><a class="next" href="{{site.url}}{{ page.next.url }}">{{ page.next.title | truncatewords:10 }} </a></li>
   {% endif %}
-</div>
+</ol>
+</nav>
+</footer>
+</article>

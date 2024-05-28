@@ -1,18 +1,21 @@
-<p class="post-date">
-  {{ post.date | date:'%b %d, %Y' | replace:'>0','>' }}
-</p>
-<h2 class="post-title">
-{% if detail %}
-  {{ post.title }}
-{% else %}
-  <a href="{{ post.url }}">{{ post.title }}</a>
-{% endif %}
-</h2>
-<div class="entry-contents">
-  {% if detail %}
-    {{ content }}
-  {% else %}
-    {{ post.content }}
-  {% endif %}
-</div>
 
+  <hgroup>
+  <h2 class="post-title">
+  {% if detail %}
+    {{ post.title }}
+  {% else %}
+    <a href="{{ post.url }}">{{ post.title }}</a>
+  {% endif %}
+  </h2>
+    <p class="post-date">
+    {{ post.date | date:'%b %d, %Y' | replace:'>0','>' }}
+  </p>
+
+</hgroup>
+  <div class="entry-contents">
+    {% if detail %}
+      {{ content }}
+    {% else %}
+      {{ post.content }}
+    {% endif %}
+  </div>
