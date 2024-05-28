@@ -1,16 +1,15 @@
 ---
 layout: post
-title: mirsangi nonche
+title: mirsāngi noṇche
 categories: pickles
 permalink: mirsanginonche
 ---
 
 *Chilli pickle*
 
-This is a very quick and easy to make pickle and is my mother's recipe. It is spicy, tangy and very yummy. We all love to have it as a side with rice and curry or
-with roti/chapatis. It will come out best with the long and fleshy (there is more to bite) kind of green chillies.
+This is a very quick and easy to make pickle and is my mother's recipe. It is spicy, tangy and very yummy. We all love to have it as a side with rice and curry or with roti/chapatis. It will come out best with the long and fleshy (there is more to bite) kind of green chillies.
 
-![](/images/IMG_4611.jpeg)
+![mirsangi noNche](/images/mirsangi-nonche.jpg)
 
 
 **Ingredients**
