@@ -2,25 +2,23 @@
 <html lang="en">
     <head>
         <title>
-        {% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}
+            {% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}
         </title>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <meta name="description" content="{{ site.description }}" />
         {% if site.feed %}
-            <link
-                rel="alternate"
-                type="application/atom+xml"
-                title="Recent Entries"
-                href="{{ site.feed }}"
-                />
-            {% endif %}
-            <link rel="stylesheet" href="/css/matcha.css">
-        </head>
-        <body class="layout-simple">
-            <header>
-                {% include _header.html %}
-            </header>
-            <main>
+        <link
+            rel="alternate"
+            type="application/atom+xml"
+            title="Recent Entries"
+            href="{{ site.feed }}"
+        />
+        {% endif %}
+        <link rel="stylesheet" href="/css/style.css" />
+    </head>
+    <body class="layout-simple">
+        <header>{% include _header.html %}</header>
+        <main>
             <section>{{ content }}</section>
         </main>
         <aside>
@@ -33,8 +31,6 @@
                 </ul>
             </nav>
         </aside>
-        <footer>
-            {% include _footer.html %}
-        </footer>
+        <footer>{% include _footer.html %}</footer>
     </body>
 </html>

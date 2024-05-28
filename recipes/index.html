@@ -3,10 +3,10 @@ layout: post
 title: All Recipes
 ---
 
-<ul class="posts">
+<ul id="allrecipes" class="list-reset">
     {% for post in site.posts if "blog" not in post.categories %}
-    <li>
-        <span class="postdate">{{ post.date | date_to_string }}</span>
+    <li class="mb1">
+        <code class="mr2">{{ post.date | date_to_string }}</code>
         <a href="{{site.url}}{{post.url}}" class="{{post.categories[0]}}"
             >{{ post.title }}</a
         >
