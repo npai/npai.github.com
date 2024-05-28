@@ -6,14 +6,14 @@ layout: default
 {% assign detail = true %}
 <article>
 {% include _post.html %}
-<footer class=muted>
+<footer>
   <nav>
   <ol>
   {% if page.previous %}
-    <li><a class="prev" href="{{site.url}}{{ page.previous.url }}">{{ page.previous.title | truncatewords:10 }}</a></li>
+    <li><a href="{{site.url}}{{ page.previous.url }}">&laquo; {{ page.previous.title | truncatewords:10 }}</a></li>
   {% endif %}
   {% if page.next %}
-    <li><a class="next" href="{{site.url}}{{ page.next.url }}">{{ page.next.title | truncatewords:10 }} </a></li>
+    <li><a href="{{site.url}}{{ page.next.url }}">{{ page.next.title | truncatewords:10 }} &raquo;</a></li>
   {% endif %}
 </ol>
 </nav>
