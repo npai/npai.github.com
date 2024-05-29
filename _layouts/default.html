@@ -1,20 +1,21 @@
 <!doctype html>
-<html lang="en">
+<html>
     <head>
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta name="description" content="{{ site.description }}">
         <title>
             {% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}
         </title>
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-        <meta name="description" content="{{ site.description }}" />
         {% if site.feed %}
         <link
             rel="alternate"
             type="application/atom+xml"
             title="Recent Entries"
             href="{{ site.feed }}"
-        />
+        >
         {% endif %}
-        <link rel="stylesheet" href="/css/style.css" />
+        <link rel="stylesheet" href="/css/style.css">
     </head>
     <body class="layout-simple">
         <header>{% include _header.html %}</header>
