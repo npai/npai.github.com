@@ -8,7 +8,7 @@ permalink: tendli-talasani
 _gherkin stir-fry_
 
 Gherkin is called tenDli in Konkani and tonDekaayi in kannada.
-taLasaNi is a kind of konkani stir fry. See <a href="http://www.konkanirecipes.com/recipes/cabbage-upkari" title="cabbage upkari">cabbage upkari</a>.taLasaNi tastes best if  coconut oil is used as it imparts a very nice flavour. However coconut oil is not a must and any other cooking oil is also good enough.
+taLasaNi is a kind of konkani stir fry. See <a href="/cabbage-upkari" title="cabbage upkari">cabbage upkari</a>.taLasaNi tastes best if  coconut oil is used as it imparts a very nice flavour. However coconut oil is not a must and any other cooking oil is also good enough.
 
 <a href="http://www.flickr.com/photos/78806762@N00/2171775578/" title="tendli_talsn by nayan_pradeep, on Flickr"><img src="http://farm3.static.flickr.com/2319/2171775578_3b21685e8d_o.jpg" width="461" height="307" alt="tendli_talsn" /></a>
 
