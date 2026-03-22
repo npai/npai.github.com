@@ -1,0 +1,81 @@
+@media print {
+  :root {
+    --color-cream: #fff;
+    --color-text: #000;
+    --color-text-muted: #333;
+    --color-warm-brown: #000;
+  }
+
+  .site-header,
+  .site-footer,
+  .pagination,
+  footer nav,
+  .menu-toggle,
+  .menu-overlay {
+    display: none !important;
+  }
+
+  body {
+    font-size: 12pt;
+    line-height: 1.5;
+    background: #fff;
+    color: #000;
+  }
+
+  .layout-wrapper {
+    max-width: 100%;
+    display: block;
+  }
+
+  .main-content {
+    padding: 0;
+  }
+
+  article {
+    box-shadow: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  article h2 {
+    font-size: 24pt;
+    page-break-after: avoid;
+  }
+
+  .post-date {
+    font-size: 10pt;
+    color: #666;
+  }
+
+  .entry-contents h2 {
+    font-size: 14pt;
+    margin-top: 1.5em;
+    page-break-after: avoid;
+  }
+
+  .entry-contents ul,
+  .entry-contents ol {
+    page-break-inside: avoid;
+  }
+
+  .entry-contents img {
+    max-width: 4in;
+    page-break-inside: avoid;
+  }
+
+  a[href]::after {
+    content: " (" attr(href) ")";
+    font-size: 9pt;
+    color: #666;
+  }
+
+  a[href^="#"]::after,
+  a[href^="javascript"]::after {
+    content: "";
+  }
+
+  @page {
+    margin: 1in;
+  }
+}

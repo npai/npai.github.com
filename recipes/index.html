@@ -28,8 +28,8 @@ title: All Recipes
             <article class="recipe-card" data-category="{{ post.categories[0] | slugify }}" style="animation-delay: {{ forloop.index0 | times: 0.03 }}s">
                 <header class="recipe-card-header">
                     <span class="recipe-card-meta">{{ post.categories[0] }}</span>
-                    <h2><a href="{{site.url}}{{post.url}}">{{ post.title }}</a></h2>
-                    <time class="recipe-card-date">{{ post.date | date_to_string }}</time>
+                    <h2><a href="{{ post.url | absolute_url }}">{{ post.title }}</a></h2>
+                    <time class="recipe-card-date" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: '%b %-d, %Y' }}</time>
                 </header>
                 <p class="recipe-card-excerpt">{{ post.content | strip_html | truncatewords: 35 }}</p>
             </article>

@@ -4,16 +4,35 @@ layout: default
 
 {% assign post = page %}
 {% assign detail = true %}
+
+{% if page.categories %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org/",
+  "@type": "Recipe",
+  "name": "{{ page.title | strip_html }}",
+  "description": "{{ page.content | strip_html | truncatewords: 50 }}",
+  "datePublished": "{{ page.date | date_to_xmlschema }}",
+  {% if page.image %}"image": "{{ page.image | absolute_url }}",{% endif %}
+  {% if page.prep_time %}"prepTime": "PT{{ page.prep_time }}M",{% endif %}
+  {% if page.cook_time %}"cookTime": "PT{{ page.cook_time }}M",{% endif %}
+  {% if page.servings %}"recipeYield": "{{ page.servings }} servings",{% endif %}
+  {% if page.categories %}"recipeCategory": "{{ page.categories | join: ', ' }}",{% endif %}
+  "url": "{{ page.url | absolute_url }}"
+}
+</script>
+{% endif %}
+
 <article>
 {% include _post.html %}
 <footer>
   <nav>
   <ol>
   {% if page.previous %}
-    <li><a href="{{site.url}}{{ page.previous.url }}">&laquo; {{ page.previous.title | truncatewords:10 }}</a></li>
+    <li><a href="{{ page.previous.url | absolute_url }}">&laquo; {{ page.previous.title | truncatewords:10 }}</a></li>
   {% endif %}
   {% if page.next %}
-    <li><a href="{{site.url}}{{ page.next.url }}">{{ page.next.title | truncatewords:10 }} &raquo;</a></li>
+    <li><a href="{{ page.next.url | absolute_url }}">{{ page.next.title | truncatewords:10 }} &raquo;</a></li>
   {% endif %}
 </ol>
 </nav>
