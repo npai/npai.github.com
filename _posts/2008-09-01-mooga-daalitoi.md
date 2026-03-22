@@ -7,7 +7,7 @@ permalink: mooga-daalitoi
 
 _moong daal_
 
-This is rather like <a href="http://www.konkanirecipes.com/recipes/daalitoi" title="daaLitoi">daaLitoi</a> but made with moong daal instead. I like this toi a lot compared to the regular one. This is my MIL's recipe and very easy to make.
+This is rather like <a href="/daalitoi" title="daaLitoi">daaLitoi</a> but made with moong daal instead. I like this toi a lot compared to the regular one. This is my MIL's recipe and very easy to make.
 
 
 <a href="http://www.flickr.com/photos/78806762@N00/2817823715/" title="toi by nayan_pradeep, on Flickr"><img src="http://farm4.static.flickr.com/3118/2817823715_8e6dce7dfa_o.jpg" width="460" height="345" alt="toi" /></a>

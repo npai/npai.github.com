@@ -7,7 +7,7 @@ permalink: mooga-mole-randayi
 
 _sprouted moong curry_
 
-Mooga moLe randayi is a very common and popular konkani curry. Be it any festival or pooja or any other occassion like marriage you can guarantee the presence of this randayi along with <a href="http://www.konkanirecipes.com/recipes/daalitoi" title="daaLitoi">daaLitoi</a> and a upkari of the most common vegetable. Typically in all these functions, it will be <a href="http://www.konkanirecipes.com/recipes/tendli-ani-batata-upkari" title="upkari">tenDli upkari</a>.  
+Mooga moLe randayi is a very common and popular konkani curry. Be it any festival or pooja or any other occassion like marriage you can guarantee the presence of this randayi along with <a href="/daalitoi" title="daaLitoi">daaLitoi</a> and a upkari of the most common vegetable. Typically in all these functions, it will be <a href="/tendli-ani-batata-upkari" title="upkari">tenDli upkari</a>.  
 
 This randayi is easy to make, however it requires some amount of planning (1 day before) as the moong has to sprout. Soak some moong in water at night. Early in the morning, drain the water and cover the vessel with a lid and set it aside. By late evening, the sprouts should have come out well. Wash the sprouted moong to remove as much skin as possible. (I dont remove the skin however as it is fibrous and good for health)
 
