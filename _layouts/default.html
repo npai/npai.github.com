@@ -17,21 +17,66 @@
         {% endif %}
         <link rel="stylesheet" href="/css/style.css">
     </head>
-    <body class="layout-simple">
-        <header>{% include _header.html %}</header>
-        <main>
-            <section>{{ content }}</section>
-        </main>
-        <aside>
-            <nav>
-                <ul>
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/recipes/">All Recipes</a></li>
-                    <li><a href="/about/">About</a></li>
-                    <li><a href="/now-reading/">Now Reading</a></li>
-                </ul>
-            </nav>
-        </aside>
-        <footer>{% include _footer.html %}</footer>
+    <body>
+        <div class="layout-wrapper">
+            <header class="site-header">
+                <div class="header-inner">
+                    <h1 class="site-title">
+                        <a href="/">{{ site.title }}</a>
+                    </h1>
+                    <button class="menu-toggle" aria-label="Toggle menu" aria-expanded="false">
+                        <span></span>
+                    </button>
+                    <nav class="main-nav">
+                        <a href="/">Home</a>
+                        <a href="/recipes/">All Recipes</a>
+                        <a href="/about/">About</a>
+                        <a href="/now-reading/">Now Reading</a>
+                    </nav>
+                </div>
+            </header>
+            <div class="menu-overlay"></div>
+            
+            <main class="main-content">
+                <div class="content-inner">
+                    {{ content }}
+                </div>
+            </main>
+            
+            <footer class="site-footer">
+                {% include _footer.html %}
+            </footer>
+        </div>
+        
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                const menuToggle = document.querySelector('.menu-toggle');
+                const mainNav = document.querySelector('.main-nav');
+                const menuOverlay = document.querySelector('.menu-overlay');
+                
+                function toggleMenu() {
+                    const isOpen = mainNav.classList.toggle('open');
+                    menuToggle.classList.toggle('active');
+                    menuToggle.setAttribute('aria-expanded', isOpen);
+                    menuOverlay.classList.toggle('active');
+                    document.body.style.overflow = isOpen ? 'hidden' : '';
+                }
+                
+                function closeMenu() {
+                    mainNav.classList.remove('open');
+                    menuToggle.classList.remove('active');
+                    menuToggle.setAttribute('aria-expanded', 'false');
+                    menuOverlay.classList.remove('active');
+                    document.body.style.overflow = '';
+                }
+                
+                menuToggle.addEventListener('click', toggleMenu);
+                menuOverlay.addEventListener('click', closeMenu);
+                
+                document.addEventListener('keydown', function(e) {
+                    if (e.key === 'Escape') closeMenu();
+                });
+            });
+        </script>
     </body>
 </html>

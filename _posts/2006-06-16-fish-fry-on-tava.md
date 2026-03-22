@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Fish Fry on tava
-categories: Nonveg-8211-Fish
+categories: Nonveg Fish
 permalink: fish-fry-on-tava
 ---
 

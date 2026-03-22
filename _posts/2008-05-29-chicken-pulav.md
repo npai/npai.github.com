@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Chicken pulav
-categories: Nonveg-8211-Chicken Rice-items
+categories: Nonveg Chicken Rice-items
 permalink: chicken-pulav
 ---
 

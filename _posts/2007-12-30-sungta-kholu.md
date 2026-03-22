@@ -1,7 +1,7 @@
 ---
 layout: post
 title: sungTa khoLu
-categories: Nonveg-8211-Prawns
+categories: Nonveg Prawns
 permalink: sungta-kholu
 ---
 

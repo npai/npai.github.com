@@ -3,13 +3,65 @@ layout: post
 title: All Recipes
 ---
 
-<ul id="allrecipes" class="list-reset">
-    {% for post in site.posts if "blog" not in post.categories %}
-    <li class="mb1">
-        <code class="mr2">{{ post.date | date_to_string }}</code>
-        <a href="{{site.url}}{{post.url}}" class="{{post.categories[0]}}"
-            >{{ post.title }}</a
-        >
-    </li>
-    {% endfor %}
-</ul>
+<div class="recipes-layout">
+    <aside class="recipes-sidebar">
+        <h3>Categories</h3>
+        <ul class="category-list">
+            <li><a href="#" class="category-link active" data-category="all">All Recipes</a></li>
+            {% assign sorted_cats = site.posts | map: 'categories' | join: ',' | split: ',' | compact | uniq | sort %}
+            {% for cat in sorted_cats %}
+            {% unless cat == 'blog' or cat == '' %}
+            <li>
+                <a href="#" class="category-link" data-category="{{ cat | slugify }}">
+                    {{ cat }}
+                </a>
+            </li>
+            {% endunless %}
+            {% endfor %}
+        </ul>
+    </aside>
+    
+    <main class="recipes-main">
+        <div id="allrecipes">
+            {% for post in site.posts %}
+            {% unless post.categories contains 'blog' %}
+            <article class="recipe-card" data-category="{{ post.categories[0] | slugify }}" style="animation-delay: {{ forloop.index0 | times: 0.03 }}s">
+                <header class="recipe-card-header">
+                    <span class="recipe-card-meta">{{ post.categories[0] }}</span>
+                    <h2><a href="{{site.url}}{{post.url}}">{{ post.title }}</a></h2>
+                    <time class="recipe-card-date">{{ post.date | date_to_string }}</time>
+                </header>
+                <p class="recipe-card-excerpt">{{ post.content | strip_html | truncatewords: 35 }}</p>
+            </article>
+            {% endunless %}
+            {% endfor %}
+        </div>
+    </main>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const categoryLinks = document.querySelectorAll('.category-link');
+    const recipeCards = document.querySelectorAll('.recipe-card');
+    
+    categoryLinks.forEach(link => {
+        link.addEventListener('click', function(e) {
+            e.preventDefault();
+            
+            const category = this.dataset.category;
+            
+            categoryLinks.forEach(l => l.classList.remove('active'));
+            this.classList.add('active');
+            
+            recipeCards.forEach(card => {
+                if (category === 'all' || card.dataset.category === category) {
+                    card.style.display = 'block';
+                    card.style.animation = 'fadeUp 0.4s ease-out backwards';
+                } else {
+                    card.style.display = 'none';
+                }
+            });
+        });
+    });
+});
+</script>

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: sungaT fry
-categories: Nonveg-8211-Prawns
+categories: Nonveg Prawns
 permalink: sungat-fry
 ---
 
